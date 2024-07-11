@@ -12,5 +12,6 @@ COPY extra-packages /
 
 RUN   cat /extra-packages | xargs zypper -n install
 
+RUN   zypper -n dup
 RUN   ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/flatpak
 RUN   ln -fs /usr/bin/distrobox-host-exec /usr/bin/ujust

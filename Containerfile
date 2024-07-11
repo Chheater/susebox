@@ -18,5 +18,4 @@ RUN   ln -fs /bin/sh /usr/bin/sh && \
 RUN   ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/podman && \
       ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/rpm-ostree
 
-RUN   ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/transactional-update && \
-      ln -fs /usr/bin/distrobox-host-exec /usr/bin/ujust
+RUN   ln -fs /usr/bin/distrobox-host-exec /usr/bin/ujust
